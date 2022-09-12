@@ -2,6 +2,8 @@
 
 Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
 
+API: https://documenter.getpostman.com/view/21551982/2s7YYpd55H#0a34c2f6-7a26-416b-a601-a4a9ee34aeda
+
 Ele deve possuir, ao menos, as 3 entidades importantes:
 
 1. Estudantes 
