@@ -18,7 +18,7 @@ class TurmaData extends BaseDataBase {
       .from("lab_system_turma")
       .where("modulo", ">", 0);
     const turmasTipadas = resultado.map((turma) => {
-      return new TurmaModel(turma.nome, turma.id, turma.modulo);
+      return new TurmaModel(turma.id, turma.nome, turma.modulo);
     });
     return turmasTipadas;
   }

@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
-import moment from "moment";
 import DocenteData from "../data/DocenteData";
 import TurmaData from "../data/TurmaData";
 import EmailError from "../error/EmailError";
-import EstudanteError from "../error/UsuarioError";
+import UsuarioError from "../error/UsuarioError";
 import IdTurmaError from "../error/IdTurmaError";
 import InserirDados from "../error/InserirDados";
 import DocenteModel from "../model/DocenteModel";
+import moment from "moment";
 
 class Docente {
   async criar(req: Request, res: Response) {
@@ -72,7 +72,7 @@ class Docente {
       const docenteData = new DocenteData();
       const verificaId = await docenteData.buscarId(id);
       if (!verificaId) {
-        throw new EstudanteError();
+        throw new UsuarioError();
       }
 
       const turmaData = new TurmaData();
