@@ -1,13 +1,11 @@
 class TurmaModel {
-  private id: string | undefined = Math.floor(
-    Date.now() * Math.random()
-  ).toString(36);
+  private id: string | undefined;
   private nome: string | undefined;
   private modulo: string | undefined;
 
-  constructor(nome: string, id?: string, modulo?: string) {
-    this.nome = nome;
+  constructor(id: string, nome: string, modulo?: string) {
     this.id = id;
+    this.nome = nome;
     this.modulo = modulo;
   }
 

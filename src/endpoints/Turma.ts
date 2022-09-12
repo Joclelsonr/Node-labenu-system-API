@@ -8,10 +8,12 @@ class Turma {
   async criar(req: Request, res: Response) {
     try {
       const { nome } = req.body;
+      const id = Math.floor(Date.now() * Math.random()).toString(36);
+
       if (!nome) {
         throw new InserirDados();
       }
-      const turma = new TurmaModel(nome);
+      const turma = new TurmaModel(id, nome);
 
       const turmaData = new TurmaData();
       const resultado = await turmaData.criarTurma(turma);

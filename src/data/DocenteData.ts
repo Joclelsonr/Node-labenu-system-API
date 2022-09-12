@@ -13,7 +13,7 @@ class DocenteData extends BaseDataBase {
       })
       .into("lab_system_docente");
 
-    return `Docente: ${docente.getNome()} criado com sucesso!`;
+    return `Professor: ${docente.getNome()} criado com sucesso!`;
   }
 
   async verificaEmail(email: string) {
@@ -58,7 +58,7 @@ class DocenteData extends BaseDataBase {
       })
       .into("lab_system_docente")
       .where({ id });
-    return `Usuário atualizado com sucesso!`;
+    return `A turma do professor, foi atualizado com sucesso!`;
   }
 }
 export default DocenteData;
