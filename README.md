@@ -1,35 +1,37 @@
 ## LabenuSystem:
 
-Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
+O projeto consiste na criação de uma API que represente o sistema básico da nossa organização. 
 
-API: https://documenter.getpostman.com/view/21551982/2s7YYpd55H
+Link da API: https://documenter.getpostman.com/view/21551982/2s7YYpd55H
 
-Ele deve possuir, ao menos, as 3 entidades importantes:
+Ela possui 3 entidades importantes:
 
 1. Estudantes 
-
     Representa estudantes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e os principais hobbies dele. 
 
 2. Docente
-
     Representa docentes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e todas as especialidades dele. Há 7 especialidades: React, Redux, CSS, Testes, Typescript, Programação Orientada a Objetos e Backend
 
 3. Turma
-
     Toda turma é composta das seguintes características: id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.
 
-    O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
+As funcionalidades são:
 
-As funcionalidades básicas são:
+- [x] Buscar turmas ativas
 
-→ Criar estudante;
+- [x] Buscar docentes
 
-→ Criar docente;
+- [x] Buscar estudante por nome
 
-→ Criar turma;
+- [x] Criar estudante
 
-→ Adicionar estudante na turma;
+- [x] Criar Docente
 
-→ Adicionar docente na turma;
+- [x] Criar turma
 
-→ Pegar a idade de algum estudante a partir do id
+- [x] Alterar modulo
+
+- [x] Mudar estudante de turma
+
+- [x] Mudar docente de turma
+
