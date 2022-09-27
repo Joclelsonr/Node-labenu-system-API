@@ -51,7 +51,6 @@ Link da API: https://documenter.getpostman.com/view/21551982/2s7YYpd55H
 <li>MySql - Banco de dados</li>
 <li>Knex</li>
 <li>Cors</li>
-<li>JSON Web Token (JWT)</li>
 <li>POO</li>
 
 <hr>
