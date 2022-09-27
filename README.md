@@ -1,5 +1,3 @@
-![banco de dados](https://user-images.githubusercontent.com/104178622/189782987-43b6e3a2-7aba-4e7f-a66e-e57bacb06df6.jpg)
-
 ## 💻 LabenuSystem:
 
 O projeto consiste na criação de uma API que represente o sistema básico da nossa organização. 
